@@ -24,7 +24,7 @@ body {
 			position: absolute;
 			bottom: 0px;
 			left: 50px;
-			color:blue;
+			color:black;
 		}
 
 		.profile-info {
@@ -67,6 +67,12 @@ body {
 		.info {
 			padding: 2% 1%;
 			border-bottom: 1px solid #bdbdbd;
+		}
+		.fa{
+			font-size:40px;
+		}
+		.heading{
+		font-family: 'Bungee Shade', cursive;
 		}
 
 		.sub-heading { font-weight: bold; }
