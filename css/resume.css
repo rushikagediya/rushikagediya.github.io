@@ -1,29 +1,43 @@
+
 body {
-			background: #eae8e7;
+	background: #eae8e7;
 			color: #767270;
-			padding: 1%;
+			padding:1%;
 			font-size: 14px;
 			font-family: verdana, sans-serif;
-		}
+		}		
 		
-		.sidebar {
+	.sidebar {
 			width:30%;
 			display: inline-block;
 			margin-left: 10%;
-			background: #5da4d9;
-			color: white;
+			background:lightgray;
+			color: black;
+			box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+
+		}
+		.personal-details{
+			
 		}
 
 		img {
-			width: 100%;
+			width: 95%;
+			padding:3%;
 		}
 
 		.sidebar-top { position: relative; }
 
-		.profile-basic {
-			position: absolute;
-			bottom: 0px;
-			left: 50px;
+		.name {
+			
+			position:absolute;
+			top: 0px;
+			left: 45px;
+			color:black;
+		}
+		.designation{
+			position:absolute;
+			bottom:10px;
+			right:10px;
 			color:black;
 		}
 
@@ -46,38 +60,55 @@ body {
 		}
 
 		.social-media:hover{
-			cursor: pointer;
-			color: white;
+			cursor: pointer;  
+			color:steelblue;
+			font-size:30px;
+		}
+		.fa{
+			font-size:15px;
 		}
 
 		.content {
-			width: 48%;
+			
+			width:50%;
 			margin-left: 2%;
 			display: inline-block;
 			vertical-align: top;
+			
 		}
 
 		.work-experience, .education {
-			margin-bottom: 30px;
+			margin-bottom: 20px;
 			padding: 5% 2% 5% 10%;
-			background: white;
+			background:lightgray;
+			color:black;
 			box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+			
 		}
 
 		.info {
 			padding: 2% 1%;
 			border-bottom: 1px solid #bdbdbd;
+			
+			
 		}
+		
+		
 		.fa{
 			font-size:40px;
 		}
 		.heading{
-		font-family: 'Bungee Shade', cursive;
+		
+		
+		font-weight: bold;
+		color:black;			
+		
 		}
 
 		.sub-heading { font-weight: bold; }
 
 		.duration {
-			color: #5da4d9;
+			color:blue;
 			font-size:12px;
 		}
+	
